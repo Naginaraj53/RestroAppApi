@@ -11,5 +11,9 @@ namespace WebAPIs.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        public UsersController()
+        {
+          
+        }
     }
 }
