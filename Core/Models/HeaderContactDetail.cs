@@ -13,6 +13,6 @@ namespace Core.Models
         public string HContactDetailName { get; set; }
         public string HContactDetailLink { get; set; }
         public string HContactDetailIcon { get; set; }
-
+        public string HContactDetailValue { get; set; }
     }
 }
