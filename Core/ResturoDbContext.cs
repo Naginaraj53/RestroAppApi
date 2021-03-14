@@ -8,11 +8,12 @@ namespace Core
         {
 
         }
-        DbSet<User> Users{ get; set; }
-        DbSet<BookTable> BookTables{ get; set; }
-        DbSet<HeaderContactDetail> HeaderContactDetails{ get; set; }
-        DbSet<LinkContent> LinkContents{ get; set; }
-        DbSet<SocialMedia> SocialMedias{ get; set; }
+       
+        public DbSet<User> Users{ get; set; }
+       public  DbSet<BookTable> BookTables{ get; set; }
+        public DbSet<HeaderContactDetail> HeaderContactDetails{ get; set; }
+        public DbSet<LinkContent> LinkContents{ get; set; }
+        public DbSet<SocialMedia> SocialMedias{ get; set; }
         
     }
 }

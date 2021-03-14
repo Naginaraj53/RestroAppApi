@@ -7,7 +7,11 @@ namespace Core.ViewModels
 {
     public class TopHeader
     {
-        public virtual LinkContent BookTables { get; set; }
+        public TopHeader()
+        {
+
+        }
+        public virtual IEnumerable<LinkContent> BookTables { get; set; }
         public virtual IEnumerable<HeaderContactDetail> ContactDetail { get; set; }
         public virtual IEnumerable<SocialMedia> SocialMedia { get; set; }
 
